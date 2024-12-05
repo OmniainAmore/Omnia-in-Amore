@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omnia in Amore - Customized Crafts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff9f0;
+            color: #5a3931;
+        }
+        header {
+            background-color: #fce8d5;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #7a4b3a;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            background-color: #f4d5ba;
+        }
+        nav a {
+            text-decoration: none;
+            color: #7a4b3a;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            color: #a65d47;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .gallery img, .best-sellers img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #fce8d5;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            text-decoration: none;
+            color: #7a4b3a;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #a65d47;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #7a4b3a;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Omnia in Amore</h1>
+        <p>Handcrafted with Love</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#shop">Shop</a>
+        <a href="#best-sellers">Best Sellers</a>
+        <a href="#extras">Why Choose Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Omnia in Amore was born from a passion for creating heartfelt crafts that celebrate life's special moments. Every item is crafted with sustainability in mind, using ethically sourced materials to ensure beauty with a purpose.</p>
+        <p>Crafting became a significant part of my life in 2023 after the loss of a close loved one. I found myself crafting all hours of the day and night to keep my mind occupied. It brought peace, and through this hobby, Omnia in Amore was created to share that joy with others.</p>
+    </section>
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <p>"Absolutely beautiful work! The attention to detail is amazing." - Sarah K.</p>
+        <p>"I loved the custom piece I ordered. It was perfect for my home!" - James L.</p>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="image1.jpg" alt="Custom Tumbler">
+            <img src="image2.jpg" alt="Handcrafted Fountain">
+            <img src="image3.jpg" alt="Custom T-Shirt">
+        </div>
+    </section>
+    <section id="shop">
+        <h2>Shop</h2>
+        <p>We specialize in custom-designed tumblers, T-shirts, fountains, and more. Explore our handcrafted items, each made to order and customizable to suit your preferences.</p>
+        <p><a href="shop.html">Visit our shop</a></p>
+    </section>
+    <section id="best-sellers">
+        <h2>Best Sellers</h2>
+        <div class="best-sellers">
+            <img src="best1.jpg" alt="Bestseller Tumbler">
+            <p>Personalized Tumbler - $25.00</p>
+            <img src="best2.jpg" alt="Bestseller T-Shirt">
+            <p>Custom T-Shirt - $20.00</p>
+            <img src="best3.jpg" alt="Bestseller Fountain">
+            <p>Decorative Fountain - $50.00</p>
+        </div>
+    </section>
+    <section id="extras">
+        <h2>Why Choose Us</h2>
+        <ul>
+            <li>Handcrafted with care and attention to detail.</li>
+            <li>Sustainably sourced materials for eco-friendly products.</li>
+            <li>Customizable options to create one-of-a-kind pieces.</li>
+        </ul>
+        <h3>FAQs</h3>
+        <p><strong>What materials do you use?</strong> We use high-quality, sustainable materials to ensure our products are beautiful and long-lasting.</p>
+        <p><strong>How long does customization take?</strong> Custom orders typically take 1-2 weeks to complete.</p>
+        <p><strong>Do you ship internationally?</strong> Yes, we offer worldwide shipping.</p>
+        <h3>Gift Options</h3>
+        <p>Looking for the perfect gift? We offer beautifully packaged gift sets and custom designs for every occasion.</p>
+        <h3>Behind the Scenes</h3>
+        <p>Peek into our creative process: each product is lovingly handcrafted in our studio, where passion meets craftsmanship.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit-form.php" method="POST">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p>Follow me on social media:</p>
+        <a href="https://instagram.com">Instagram</a> | 
+        <a href="https://facebook.com">Facebook</a> | 
+        <a href="https://twitter.com">Twitter</a>
+    </section>
+    <footer>
+        <p>&copy; 2024 Omnia in Amore. All rights reserved.</p>
+    </footer>
+</body>
+</html>
